@@ -1,0 +1,250 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+
+  align-items: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Glass background effect
+.Menu
+{
+    width: inherit;
+   height: inherit;
+   background-color: rgba(255,255,255,.05);
+   box-shadow: 0 0 5px rgba(0,0,0,0.15);
+   backdrop-filter: blur(10px);
+   position: fixed;
+}
+*/
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  height: 40px;
+  line-height: 40px;
+  margin: 2px;
+  padding: 0 22px;
+  display: flex;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition-timing-function: 0.6s ease-in-out;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  border-color: aliceblue;
+}
+
+nav ul li a:hover {
+  background-color: rgb(145, 16, 145);
+  color: white;
+  box-shadow: 5px 10px 30px rgb(136, 17, 136);
+}
+
+.active {
+  background-color: rgb(145, 16, 145);
+  color: white;
+  box-shadow: 5px 10px 30px rgb(145, 16, 145);
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(GOAL.png);
+}
+
+.mainHeading {
+  height: 110px;
+  width: 700px;
+  position: absolute;
+  left: 8%;
+  top: 15%;
+  transform: translate(-8%, -15%);
+}
+
+.mainHeading h1 {
+  font-size: 40px;
+  margin: 2px;
+  letter-spacing: 1px;
+  color: white;
+  font-family: system-ui "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainHeading p {
+  font-size: 120%;
+  color: white;
+}
+
+.mainBtn {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  border-radius: 14px;
+  background-color: rgb(188, 10, 188);
+  transition: 0.6s ease-in-out;
+}
+
+.mainBtn:hover {
+  box-shadow: 5px 8px 18px rgb(136, 17, 136);
+}
+
+/* flex-direction: row-reverse; to reverse the images */
+.Features {
+  width: 100%;
+  height: 90vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-box {
+  border-color: rgb(136, 17, 136);
+
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  margin: 15px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature-img {
+  width: 100%;
+  height: 70%;
+}
+
+.feature-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.feature-text {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: medium;
+}
+
+.feature-text h2 {
+  font-size: larger;
+  color: rgb(6, 77, 118);
+  margin: 0px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About {
+  background-color: rgb(197, 233, 228);
+}
+.about-img img {
+  margin: 40px;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.about-text {
+  padding: 0 125px;
+}
+
+.about-text p {
+  font-size: large;
+}
+
+.about-text button {
+  float: right;
+}
+
+.Contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.contact-text {
+  text-align: center;
+  margin: 40px 0px;
+  margin-bottom: 80px;
+}
+
+.contact-text h1 {
+  font-size: 2.2rem;
+}
+
+.Contact form {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Contact form input,
+.Contact form textarea {
+  width: 100%;
+  height: 40px;
+  margin: 5px 0px;
+  padding: 10px;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  border-radius: 5px;
+}
+
+.Contact form textarea {
+  height: 150px;
+}
+
+.Contact button {
+  margin-top: 40px;
+}
+
+.Contact h1:hover {
+  color: rgb(136, 17, 136);
+}
